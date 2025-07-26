@@ -6,8 +6,15 @@
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
 - [Initial Assessment](#initial-assessment)
-- [Objective](#objective)
-   
+- [Handling Missing Values](#handling-missing-values)
+- [Standardizing Formats](#standardizing-formats)
+- [Fixing Dates](#fixing-dates)
+- [Removing Duplicates](#removing-duplicates)
+- [Data Type Corrections](#data-type-corrections)
+- [Final Review](#final-review)
+
+
+  
 ### Project Overview
 This project focused on cleaning a retail sales dataset with over 5,000 records using Microsoft Excel. The data contained common issues such as missing values, inconsistent formatting, duplicates, and invalid entries.
 
@@ -29,5 +36,35 @@ The first step in any data cleaning project is to have a proper understand of th
 - Product names with inconsistent capitalization and spelling variations.
 - Duplicate records.
 - City names with inconsistent capitalization (e.g., "philadelphia" vs. "Philadelphia").
+
+### Handling Missing Values
+Next for me is to handle the missing values.  I used Excel’s filters and conditional formatting to identify and highlight blank or “N/A” entries like:
+- For missing Email, I marked them as “Unknown” to preserve the row.
+- Blank Quantity values were replaced with 1 as a default assumption.
+- For Price, rows with “N/A” or blank prices were flagged for potential removal or correction depending on other information available.
+
+### Standardizing Formats
+There is need for me to standardize Product and City names:
+- I used the LOWER and PROPER functions in Excel to fix inconsistent capitalization in Product and City columns.
+- I created a new column called “Clean Product” to correct variants (e.g., “laptop” and “LAPTOP” were all changed to “Laptop”).
+
+### Fixing Dates
+Also, there is need to format the Purchase Date column.  I used Excel’s DATEVALUE function to convert text-based dates into proper date formats. Invalid entries like “N/A” were filtered and replaced with blanks.
+
+### Removing Duplicates
+Using the “Remove Duplicates” feature in Excel (under Data > Data Tools), I selected all columns to remove exact duplicate rows. This helped reduce redundant data and potential skew in analysis.
+
+### Data Type Corrections
+I ensured the following:
+- Quantity and Price columns were formatted as Number (with appropriate decimal places).
+- Purchase Date was set to Date format (e.g., mm/dd/yyyy).
+
+### Final Review
+After applying the above transformations, and getting all the missing price values replaced. I reviewed the cleaned data:
+- No missing or invalid critical fields
+- Consistent product and city names
+- Uniform date formatting
+- Clean numeric columns
+- Duplicates removed
 
 
