@@ -37,6 +37,8 @@ The first step in any data cleaning project is to have a proper understand of th
 - Duplicate records.
 - City names with inconsistent capitalization (e.g., "philadelphia" vs. "Philadelphia").
 
+<img width="622" height="332" alt="clean1" src="https://github.com/user-attachments/assets/0ec77ee7-0a3b-4ddf-89f2-60b203ef353e" />
+
 ### Handling Missing Values
 Next for me is to handle the missing values.  I used Excel’s filters and conditional formatting to identify and highlight blank or “N/A” entries like:
 - For missing Email, I marked them as “Unknown” to preserve the row.
