@@ -72,10 +72,10 @@ Finally, the cleaned retail dataset is then saved as cleaned_retail_data.xlsx.
 
 <img width="596" height="256" alt="dirty   cleaned dataset" src="https://github.com/user-attachments/assets/0ccbdd25-11b0-4d03-8cd7-b35b9836b19e" />
 
-- [⬇️ Download dirty_retail_data.xlsx](./dirty_retail_data.xlsx)  
+- [⬇️ Download dirty_retail_dataset.xlsx](./dirty_retail_dataset.xlsx)  
   Raw, unprocessed dataset containing missing values, inconsistent formats, and duplicates.
 
-- [✅ Download cleaned_retail_data.xlsx](./cleaned_retail_data.xlsx)  
+- [✅ Download cleaned_retail_dataset.xlsx](./cleaned_retail_dataset.xlsx)  
   Cleaned and standardized version of the dataset, ready for analysis.
 
 ### Conclusion:
