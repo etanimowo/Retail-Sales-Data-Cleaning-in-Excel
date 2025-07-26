@@ -56,6 +56,8 @@ Also, there is need to format the Purchase Date column.  I used Excel’s DATEVA
 ### Removing Duplicates
 Using the “Remove Duplicates” feature in Excel (under Data > Data Tools), I selected all columns to remove exact duplicate rows. This helped reduce redundant data and potential skew in analysis.
 
+<img width="488" height="286" alt="clean5" src="https://github.com/user-attachments/assets/efebb766-ae44-4a62-aeba-49d7638756fe" />
+
 ### Data Type Corrections
 I ensured the following:
 - Quantity and Price columns were formatted as Number (with appropriate decimal places).
