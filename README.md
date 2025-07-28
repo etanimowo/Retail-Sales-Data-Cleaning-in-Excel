@@ -45,7 +45,7 @@ The first step in any data cleaning project is to have a proper understand of th
 ---
 ### Handling Missing Values
 Next for me is to handle the missing values.  I used Excel’s filters and conditional formatting to identify and highlight blank or “N/A” entries like:
-- For missing Email, I marked them as “Unknown” to preserve the row.
+- Missing Email, I marked them as “Unknown” to preserve the row.
 - Blank Quantity values were replaced with 1 as a default assumption.
 - For Price, rows with “N/A” or blank prices were flagged for potential removal or correction depending on other information available.
 
