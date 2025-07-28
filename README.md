@@ -20,7 +20,7 @@ This project focused on cleaning a retail sales dataset with over 5,000 records 
 
 ---
 ### Objective
-The goal of this project was to clean and prepare a messy dataset of retail transactions containing over 5,000 rows. The retail dataset had issues such as missing values, inconsistent formats, duplicated entries, and incorrect data types. I used Microsoft Excel to clean and standardize the data to make it ready for analysis.
+The goal of this project is to clean and prepare a messy dataset of retail transactions containing over 5,000 rows. The retail dataset had issues such as missing values, inconsistent formats, duplicated entries, and incorrect data types. I used Microsoft Excel to clean and standardize the data to make it ready for analysis.
 
 ---
 ### Data Source
