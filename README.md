@@ -14,7 +14,7 @@
 - [Final Review](#final-review)
 - [Conclusion](#conclusion)
 
-  
+---  
 ### Project Overview
 This project focused on cleaning a retail sales dataset with over 5,000 records using Microsoft Excel. The data contained common issues such as missing values, inconsistent formatting, duplicates, and invalid entries.
 
@@ -94,5 +94,12 @@ Finally, the cleaned retail dataset is then saved as cleaned_retail_data.xlsx.
 In conclusion, data cleaning is essential part of data analysis project. This retail sales project demonstrated my ability to identify and correct a wide range of data quality issues using Microsoft Excel. It helped to ensuring that the retail dataset is reliable and analysis-ready, showcasing strong attention to detail and data cleaning skills using different Excel functions.
 
 ---
+### Meet the Analyst:
+👋 I’m **Sunday Tanimowo**, an Electrical Engineering grad turned Data Analyst passionate about solving problems with data. I’ve worked across retail, e-commerce, HR, healthcare, and finance using Excel, SQL, Power BI, and Python to turn raw data into actionable insights.  I connect analysis with business goals to drive growth and efficiency.
+
+Let’s connect — whether it’s for collaboration, analytics support, or a data-driven chat. 
+
+[LinkedIn](https://www.linkedin.com/in/sundaytanimowo) | [Portfolio](https://tinyurl.com/aafvks7n)
+
 
 
